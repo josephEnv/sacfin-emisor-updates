@@ -1,0 +1,10 @@
+{
+  "version": "1.9.18",
+  "notes": "1.9.18 corrige el indicador de contabilidad: solo `SICONTA=1` se considera obligado a llevar contabilidad. Los valores `0`, `2` y otros valores no afirmativos se muestran como NO en los comprobantes y el RIDE.\r\n\r\n1.9.17 corrige la vista previa de RIDE en el historial: cada comprobante consulta la base de datos de su propio perfil para mostrar el valor vigente de CEMPRESA.SICONTA, incluso cuando hay varios perfiles conectados.\r\n\r\nIncluye los cambios de 1.9.16 para la pantalla de conexión, 1.9.15 para el logo del emisor en el RIDE y 1.9.14 para leer el indicador contable desde CEMPRESA.\r\n",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://sacfin-emisor-updates.vercel.app/SacfinEmisor-1.9.18-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTK2Z3THNhSnFoODQzdWFKWmhmM2VJdnpycU9wSjFubjVGM2tRbEdQUExSWjBsYW9PdGRRTWZTR2ZqQVdWUk1vV290OTdXajRHSDZvbDNnVk5SaVV3S2l0RUZCVVNMUlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjg2NzU2CWZpbGU6U2FjZmluIEVtaXNvcl8xLjkuMThfeDY0LXNldHVwLmV4ZQpMNm1zVUVuenFINWcxMHFNZDlFMVhLVnZVdDlMQWJQS2d1TGtBeWRVa1FTcUdPdWgxMlJTNUQzRmdvK2lRdHFYZFY5VUtlUW1hRWs4blh2ZzFPNEpCdz09Cg=="
+    }
+  }
+}
